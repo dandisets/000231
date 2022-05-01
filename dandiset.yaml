@@ -2,9 +2,19 @@
 # It can be edited online at https://dandiarchive.org/dandiset/000231
 # and obtained from the dandiarchive.
 '@context': https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.2/context.json
+about: []
 access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
+acknowledgement: We would like to acknowledge Ramon Nogueira, B Christina Pil, Esther
+  A Greeman, Jung M Park, Y Kate Hong, Stefano Fusi, and Randy M Bruno, who co-authored
+  with CR the original paper based on this dataset. We would also like to acknowledge
+  the members of the Neurodata Without Borders Slack and the DANDI Slack for their
+  advice on using these data standards. The present work was supported in part by
+  a Kavli Neurodata Without Borders Seed Grant (S-2021-GR-040) to CR. The original
+  data collection was supported in part by a Kavli Institute Postdoctoral Fellowship,
+  a NINDS/NIH F32NS096819 NRSA fellowship, and a NARSAD Young Investigator Award from
+  the Brain & Behavior Research Foundation to CR.
 assetsSummary:
   approach:
   - name: behavioral approach
@@ -41,35 +51,69 @@ assetsSummary:
   - Units
   - ElectrodeGroup
   - ElectricalSeries
-citation: Rodgers, Chris (2022) Video, behavioral, and neural dataset of mice recognizing
-  objects with their whiskers (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000231/draft
+citation: Rodgers, Chris (2022) A detailed behavioral, videographic, and neural dataset
+  on object recognition in mice (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000231/draft
 contributor:
-- affiliation: []
+- affiliation:
+  - identifier: https://ror.org/03czfpz43
+    name: Emory University
+    schemaKey: Affiliation
   email: xrodgers@gmail.com
+  identifier: 0000-0003-1762-3450
   includeInCitation: true
   name: Rodgers, Chris
   roleName:
   - dcite:ContactPerson
+  - dcite:DataCollector
+  - dcite:DataCurator
+  - dcite:DataManager
+  - dcite:Author
+  - dcite:Maintainer
+  - dcite:Methodology
+  - dcite:Researcher
   schemaKey: Person
+  url: chris-rodgers.com
 dateCreated: '2022-04-06T14:03:13.712605+00:00'
-description: 'I recently collected a large dataset to understand how mice recognize
-  objects using their whiskers. I used high-speed video to capture the motion of individually
-  identified whiskers, and identified every single contact each whisker made on the
-  objects. I also recorded large populations of individual neurons in the somatosensory
-  cortex while they did this. This dataset aligns the video, neural, and behavioral
-  datasets in a unified Neurodata Without Borders (NWB) file. I also provide the original
-  raw data files as well. These data will be useful for understanding the neural computations
-  of object recognition, for developing new software to track animal behavior in video,
-  and for developing new software for identifying individual neurons in large extracellular
-  recordings. '
+description: Mice adeptly use their whiskers to touch, recognize, and learn about
+  objects in their environment. This ability is enabled by computations performed
+  by populations of neurons in the somatosensory cortex. To understand how, we trained
+  mice to use their whiskers to recognize different shapes and we recorded activity
+  in the barrel cortex, which processes whisker input. Here, we present a large dataset
+  of high-speed video of the whiskers, along with rigorous tracking of the entire
+  extent of multiple whiskers and every contact they made on the shape. We also used
+  spike sorting to identify individual neurons, which responded with precise timing
+  to whisker contacts and motion. These data will be useful for understanding the
+  sensory and motor strategies mice use to identify objects by touch, as well as the
+  neuronal responses and computations that mediate these strategies. More generally,
+  this carefully curated labeled data could be used to develop computer vision algorithms
+  for tracking body posture, or for extracting responses of individual neurons from
+  large-scale neural recordings.
+ethicsApproval: []
 id: DANDI:000231/draft
 identifier: DANDI:000231
+keywords:
+- mouse behavior
+- whisker system
+- somatosensory cortex
+- barrel cortex
+- object recognition
+- shape discrimination
+- electrophysiology
+- pose tracking
+- population recordings
+- single unit recordings
+license:
+- spdx:CC0-1.0
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/000231/versions/draft/assets/
-name: Video, behavioral, and neural dataset of mice recognizing objects with their
-  whiskers
+name: A detailed behavioral, videographic, and neural dataset on object recognition
+  in mice
+protocol: []
+relatedResource: []
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.2
+studyTarget: []
 url: https://dandiarchive.org/dandiset/000231/draft
 version: draft
+wasGeneratedBy: []
