@@ -58,7 +58,6 @@ contributor:
   - identifier: https://ror.org/03czfpz43
     name: Emory University
     schemaKey: Affiliation
-  awardNumber: S-2021-GR-040
   email: xrodgers@gmail.com
   identifier: 0000-0003-1762-3450
   includeInCitation: true
@@ -73,6 +72,30 @@ contributor:
   - dcite:Researcher
   schemaKey: Person
   url: https://chris-rodgers.com
+- awardNumber: S-2021-GR-040
+  contactPoint: []
+  identifier: https://ror.org/00kztt736
+  includeInCitation: false
+  name: Kavli Foundation
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- awardNumber: '28667'
+  contactPoint: []
+  identifier: https://ror.org/03a63f080
+  includeInCitation: false
+  name: Brain & Behavior Research Foundation
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- awardNumber: 'F32NS096819 '
+  contactPoint: []
+  identifier: https://ror.org/01s5ya894
+  includeInCitation: false
+  name: NIH/NINDS
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
 dateCreated: '2022-04-06T14:03:13.712605+00:00'
 description: Mice adeptly use their whiskers to touch, recognize, and learn about
   objects in their environment. This ability is enabled by computations performed
