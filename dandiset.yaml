@@ -53,7 +53,8 @@ assetsSummary:
   - ElectrodeGroup
   - ElectricalSeries
 citation: Rodgers, Chris (2022) A detailed behavioral, videographic, and neural dataset
-  on object recognition in mice (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000231/draft
+  on object recognition in mice (Version 0.220904.1554) [Data set]. DANDI archive.
+  https://doi.org/10.48324/dandi.000231/0.220904.1554
 contributor:
 - affiliation:
   - identifier: https://ror.org/03czfpz43
@@ -98,6 +99,7 @@ contributor:
   - dcite:Funder
   schemaKey: Organization
 dateCreated: '2022-04-06T14:03:13.712605+00:00'
+datePublished: '2022-09-04T15:54:35.839699+00:00'
 description: Mice adeptly use their whiskers to touch, recognize, and learn about
   objects in their environment. This behavior is enabled by computations performed
   by populations of neurons in the somatosensory cortex. To understand these computations,
@@ -112,8 +114,9 @@ description: Mice adeptly use their whiskers to touch, recognize, and learn abou
   be used to develop new computer vision algorithms for tracking body posture, or
   for extracting responses of individual neurons from large-scale neural recordings.
   For further description, see https://www.biorxiv.org/content/10.1101/2022.05.10.491259v1.
+doi: 10.48324/dandi.000231/0.220904.1554
 ethicsApproval: []
-id: DANDI:000231/draft
+id: DANDI:000231/0.220904.1554
 identifier: DANDI:000231
 keywords:
 - mouse behavior
@@ -129,10 +132,22 @@ keywords:
 license:
 - spdx:CC0-1.0
 manifestLocation:
-- https://api.dandiarchive.org/api/dandisets/000231/versions/draft/assets/
+- https://dandiarchive.s3.amazonaws.com/dandisets/000231/0.220904.1554/assets.yaml
 name: A detailed behavioral, videographic, and neural dataset on object recognition
   in mice
 protocol: []
+publishedBy:
+  endDate: '2022-09-04T15:54:35.839699+00:00'
+  id: urn:uuid:f5b95d97-fe00-41ea-8a6d-5217522769ae
+  name: DANDI publish
+  schemaKey: PublishActivity
+  startDate: '2022-09-04T15:54:35.839699+00:00'
+  wasAssociatedWith:
+  - id: urn:uuid:5a15f589-d0b1-4fd9-9155-076086648a51
+    identifier: RRID:SCR_017571
+    name: DANDI API
+    schemaKey: Software
+    version: 0.1.0
 relatedResource:
 - identifier: 10.1101/2022.05.10.491259
   name: A detailed behavioral, videographic, and neural dataset on object recognition
@@ -150,6 +165,6 @@ repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.2
 studyTarget: []
-url: https://dandiarchive.org/dandiset/000231/draft
-version: draft
+url: https://dandiarchive.org/dandiset/000231/0.220904.1554
+version: 0.220904.1554
 wasGeneratedBy: []
