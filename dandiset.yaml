@@ -9,12 +9,13 @@ access:
 acknowledgement: We would like to acknowledge Ramon Nogueira, B Christina Pil, Esther
   A Greeman, Jung M Park, Y Kate Hong, Stefano Fusi, and Randy M Bruno, who co-authored
   with CR the original paper based on this dataset. We would also like to acknowledge
-  the members of the Neurodata Without Borders Slack and the DANDI Slack for their
-  advice on using these data standards. The present work was supported in part by
-  a Kavli Neurodata Without Borders Seed Grant (S-2021-GR-040) to CR. The original
-  data collection was supported in part by a Kavli Institute Postdoctoral Fellowship,
-  a NINDS/NIH F32NS096819 NRSA fellowship, and a NARSAD Young Investigator Award from
-  the Brain & Behavior Research Foundation to CR.
+  the members of the Neurodata Without Borders Slack and the DANDI Slack, especially
+  Ben Dichter, Satrajit Ghosh, and Yaroslav Halchenko, for their advice on using these
+  data standards. The present work was supported in part by a Kavli Neurodata Without
+  Borders Seed Grant (S-2021-GR-040) to CR. The original data collection was supported
+  in part by a Kavli Institute Postdoctoral Fellowship, a NINDS/NIH NRSA fellowship
+  (F32NS096819), and a NARSAD Young Investigator Award (28667) from the Brain & Behavior
+  Research Foundation to CR.
 assetsSummary:
   approach:
   - name: behavioral approach
@@ -98,19 +99,19 @@ contributor:
   schemaKey: Organization
 dateCreated: '2022-04-06T14:03:13.712605+00:00'
 description: Mice adeptly use their whiskers to touch, recognize, and learn about
-  objects in their environment. This ability is enabled by computations performed
-  by populations of neurons in the somatosensory cortex. To understand how, we trained
-  mice to use their whiskers to recognize different shapes and we recorded activity
-  in the barrel cortex, which processes whisker input. Here, we present a large dataset
-  of high-speed video of the whiskers, along with rigorous tracking of the entire
-  extent of multiple whiskers and every contact they made on the shape. We also used
-  spike sorting to identify individual neurons, which responded with precise timing
-  to whisker contacts and motion. These data will be useful for understanding the
-  sensory and motor strategies mice use to identify objects by touch, as well as the
-  neuronal responses and computations that mediate these strategies. More generally,
-  this carefully curated labeled data could be used to develop computer vision algorithms
-  for tracking body posture, or for extracting responses of individual neurons from
-  large-scale neural recordings.
+  objects in their environment. This behavior is enabled by computations performed
+  by populations of neurons in the somatosensory cortex. To understand these computations,
+  we trained mice to use their whiskers to recognize different shapes while we recorded
+  activity in the barrel cortex, which processes whisker input. Here, we present a
+  large dataset of high-speed video of the whiskers, along with rigorous tracking
+  of the entire extent of multiple whiskers and every contact they made on the shape.
+  We used spike sorting to identify individual neurons, which responded with precise
+  timing to whisker contacts and motion. These data will be useful for understanding
+  the behavioral strategies mice use to explore objects, as well as the neuronal dynamics
+  that mediate those strategies. In addition, our carefully curated labeled data could
+  be used to develop new computer vision algorithms for tracking body posture, or
+  for extracting responses of individual neurons from large-scale neural recordings.
+  For further description, see https://www.biorxiv.org/content/10.1101/2022.05.10.491259v1.
 ethicsApproval: []
 id: DANDI:000231/draft
 identifier: DANDI:000231
@@ -132,7 +133,19 @@ manifestLocation:
 name: A detailed behavioral, videographic, and neural dataset on object recognition
   in mice
 protocol: []
-relatedResource: []
+relatedResource:
+- identifier: 10.1101/2022.05.10.491259
+  name: A detailed behavioral, videographic, and neural dataset on object recognition
+    in mice
+  relation: dcite:Describes
+  repository: bioRxiv
+  schemaKey: Resource
+  url: https://www.biorxiv.org/content/10.1101/2022.05.10.491259v1
+- name: Companion code
+  relation: dcite:Describes
+  repository: github
+  schemaKey: Resource
+  url: https://github.com/cxrodgers/NwbDandiData2022
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.2
